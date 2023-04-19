@@ -6,7 +6,7 @@
   position: relative;
 }
 
-/* Text css above hero iamge */ 
+/* Text css above hero iamge */
 .hero_title {
   font-size: 4.5rem;
   backdrop-filter: blur(2px);
@@ -54,7 +54,8 @@ a.nav-link {
   cursor: pointer;
 }
 
-.fa-linkedin:hover, .fa-github:hover {
+.fa-linkedin:hover,
+.fa-github:hover {
   color: #008000;
 }
 
@@ -69,7 +70,10 @@ a.nav-link {
 }
 
 /* Spacing all sections */
-#about, #services, #portfolio, #contact {
+#about,
+#services,
+#portfolio,
+#contact {
   margin-top: 1rem;
   padding-top: 1rem;
 }
@@ -81,4 +85,8 @@ a.nav-link {
 .contact-info {
   display: flex;
   justify-content: center;
+}
+
+body {
+  overscroll-behavior: none;
 }
