@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Portfolio Website-Caleb</title>
+    <title>Caleb Lindelien</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/favicon_io/favicon.ico"
+    />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- linking css file -->
@@ -44,10 +49,10 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#portfolio">Projects</a>
             </li>
           </ul>
         </div>
@@ -126,10 +131,38 @@
       </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container mt-4 pt-4 contactContent">
+        <h1 class="text-center">Want to work together?</h1>
+        <div class="row mt-4">
+          <div class="text-center">
+            <button id="contact-btn" class="btn btn-primary">
+              Send an Email
+            </button>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="text-center">
+            <div class="social-icons mt-1">
+              <a
+                href="https://www.linkedin.com/in/caleblindelien"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/CalebLindelien" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- portfolio section-->
     <section id="portfolio">
-      <div class="container mt-3">
-        <h1 class="text-center">Portfolio</h1>
+      <div class="container mt-4 pt-4">
+        <h1 class="text-center">Projects</h1>
         <div class="row">
           <div class="col-lg-4 mt-4">
             <div class="card">
@@ -279,58 +312,6 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="container mt-3 contactContent">
-        <h1 class="text-center">Contact Me</h1>
-        <div class="row mt-4">
-          <div class="col-lg-6">
-            <!-- Google map go to website "embed-map" to change-->
-            <div
-              style="
-                overflow: hidden;
-                max-width: 100%;
-                width: 500px;
-                height: 500px;
-              "
-            >
-              <div
-                id="embeddedmap-display"
-                style="height: 100%; width: 100%; max-width: 100%"
-              >
-                <iframe
-                  style="height: 100%; width: 100%; border: 0"
-                  frameborder="0"
-                  src="https://www.google.com/maps/embed/v1/place?q=Minneapolis&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-                >
-                </iframe>
-              </div>
-              <a
-                class="embedmap-code"
-                href="http://dedicatedhosting.pro"
-                id="enablemap-data"
-                >http://dedicatedhosting.pro</a
-              >
-              <style>
-                #embeddedmap-display img {
-                  max-width: none !important;
-                  background: none !important;
-                  font-size: inherit;
-                  font-weight: inherit;
-                }
-              </style>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="contact-info">
-              <i class="fa fa-solid fa-envelope"></i>
-              <h6>@caleblindelien@gmail.com</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- footer section -->
     <footer id="footer">
       <div class="container-fluid">
@@ -348,5 +329,6 @@
 
     <!-- load javascript after loading all html content -->
     <script src="src/script.js"></script>
+    <script src="src/contact.js"></script>
   </body>
 </html>

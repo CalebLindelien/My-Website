@@ -1,3 +1,8 @@
+/* Over scroll */
+body {
+  overscroll-behavior: none;
+}
+
 /* Hero background image */
 .bgimage {
   height: 100vh;
@@ -85,8 +90,4 @@ a.nav-link {
 .contact-info {
   display: flex;
   justify-content: center;
-}
-
-body {
-  overscroll-behavior: none;
 }
